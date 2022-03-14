@@ -1,0 +1,15 @@
+﻿<Window x:Class="KirjastoB.TeoksenTiedotWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KirjastoB"
+        mc:Ignorable="d"
+        Title="TeoksenTiedotWindow" Height="450" Width="800">
+    <Grid>
+        <Label x:Name="teoksenNimiLabel" Content="Teoksen nimi: " HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="teoksenIdlabel" Content="ID-numero: " HorizontalAlignment="Left" Margin="10,36,0,0" VerticalAlignment="Top"/>
+        <Button Content="Lainaa" HorizontalAlignment="Left" Margin="742,13,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>

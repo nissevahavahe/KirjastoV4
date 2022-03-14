@@ -1,0 +1,21 @@
+﻿<Window x:Class="KirjastoB.asiakasTiedot"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KirjastoB"
+        mc:Ignorable="d"
+        Title="asiakasTiedot" Height="450" Width="800">
+    <Grid>
+        <ListView x:Name="asiakasTiedotLista" Margin="0,72,0,0">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nimi" Width="175" DisplayMemberBinding="{Binding Nimi}"> </GridViewColumn>
+                        <GridViewColumn Header="Osoite" Width="175" DisplayMemberBinding="{Binding Osoite}"> </GridViewColumn>
+                            <GridViewColumn Header="Puhelin" Width="175" DisplayMemberBinding="{Binding Puhelin}"> </GridViewColumn>
+                                <GridViewColumn Header="Email" Width="270" DisplayMemberBinding="{Binding Email}"> </GridViewColumn>
+                </GridView>
+            </ListView.View>
+        </ListView>
+    </Grid>
+</Window>

@@ -1,0 +1,17 @@
+﻿<Window x:Class="KirjastoB.henkKirjaudu"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KirjastoB"
+        mc:Ignorable="d"
+        Title="henkKirjaudu" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Center" Margin="0,63,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="499" Height="83"/>
+        <PasswordBox HorizontalAlignment="Center" Margin="0,164,0,0" VerticalAlignment="Top" Width="500" Height="83"/>
+        <Label Content="Salasana:" HorizontalAlignment="Left" Margin="55,164,0,0" VerticalAlignment="Top" Width="90"/>
+        <Label Content="Käyttäjätunnus" HorizontalAlignment="Left" Margin="56,63,0,0" VerticalAlignment="Top" Width="90"/>
+        <Button Content="Kirjaudu" HorizontalAlignment="Center" Margin="0,252,0,0" VerticalAlignment="Top" Width="499" Height="56" Click="Button_Click"/>
+
+    </Grid>
+</Window>
