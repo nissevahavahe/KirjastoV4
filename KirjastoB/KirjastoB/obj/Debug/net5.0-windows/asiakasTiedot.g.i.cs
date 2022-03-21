@@ -61,7 +61,7 @@ namespace KirjastoB {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/KirjastoB;component/asiakastiedot.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/KirjastoB;V1.0.0.0;component/asiakastiedot.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\asiakasTiedot.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

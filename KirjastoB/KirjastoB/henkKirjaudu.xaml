@@ -7,8 +7,8 @@
         mc:Ignorable="d"
         Title="henkKirjaudu" Height="450" Width="800">
     <Grid>
-        <TextBox HorizontalAlignment="Center" Margin="0,63,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="499" Height="83"/>
-        <PasswordBox HorizontalAlignment="Center" Margin="0,164,0,0" VerticalAlignment="Top" Width="500" Height="83"/>
+        <TextBox x:Name="Tunnus" HorizontalAlignment="Center" Margin="0,63,0,0"  TextWrapping="Wrap" VerticalAlignment="Top" Width="499" Height="83" TextChanged="Tunnus_TextChanged"/>
+        <PasswordBox x:Name="Salasana" HorizontalAlignment="Center" Margin="0,164,0,0" VerticalAlignment="Top" Width="500" Height="83"/>
         <Label Content="Salasana:" HorizontalAlignment="Left" Margin="55,164,0,0" VerticalAlignment="Top" Width="90"/>
         <Label Content="Käyttäjätunnus" HorizontalAlignment="Left" Margin="56,63,0,0" VerticalAlignment="Top" Width="90"/>
         <Button Content="Kirjaudu" HorizontalAlignment="Center" Margin="0,252,0,0" VerticalAlignment="Top" Width="499" Height="56" Click="Button_Click"/>
