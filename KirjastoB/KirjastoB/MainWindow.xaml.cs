@@ -98,7 +98,8 @@ namespace KirjastoB
         {
             henkKirjaudu ikkuna = new henkKirjaudu();
             ikkuna.Show();
-
+            ikkuna.asiakkaat = valittuKirjasto.Asiakas;
+            
         }
     }
 }

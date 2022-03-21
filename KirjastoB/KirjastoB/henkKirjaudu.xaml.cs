@@ -19,6 +19,10 @@ namespace KirjastoB
     /// </summary>
     public partial class henkKirjaudu : Window
     {
+
+        public List<Asiakas> asiakkaat;
+        
+
         public henkKirjaudu()
         {
             InitializeComponent();
@@ -28,6 +32,8 @@ namespace KirjastoB
         {
             asiakasTiedot ikkuna = new asiakasTiedot();
             ikkuna.Show();
+            ikkuna.Asiakastieto(asiakkaat); 
+            
         }
     }
 }

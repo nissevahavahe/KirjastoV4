@@ -25,8 +25,9 @@ namespace KirjastoB
 
     {
 
-       
-       private List<Asiakas> tiedotAsiakas;
+        public List<Asiakas> tiedotAsiakas;
+
+        
 
         public List<Asiakas> Asiakas
         {
